@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnlineAPIActivity">
+
+    <EditText
+        android:layout_margin="12dp"
+        android:background="#FFF"
+        android:padding="12dp"
+        android:gravity="top"
+        android:textColor="#000"
+        android:id="@+id/et_text"
+        android:hint="请输入要合成的文本"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/btn_synth_api"
+        android:text="在线API合成"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:text="播放合成的音频"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
