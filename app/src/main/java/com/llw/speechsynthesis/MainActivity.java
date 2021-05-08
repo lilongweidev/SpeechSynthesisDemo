@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         // 此处为android 6.0以上动态授权的回调，用户自行实现。
     }
 
+
     /**
      * 离线SDK合成
      * @param view
